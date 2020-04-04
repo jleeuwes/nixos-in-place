@@ -64,6 +64,11 @@ See [LVM](https://github.com/jeaye/nixos-in-place#lvm).
 $ apt-get install -y squashfs-tools git
 ```
 
+### Debian 10 (buster)
+```bash
+$ apt-get install -y squashfs-tools git wget
+```
+
 ### Arch
 See [tmpfs](https://github.com/jeaye/nixos-in-place#tmpfs).
 ```bash
