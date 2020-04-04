@@ -152,7 +152,7 @@ pushd "$working_directory"
   mkdir -p mnt host/nix
 
   url=https://d3g5gsiof5omrk.cloudfront.net/nixos/$primary_version/nixos-$full_version
-  wget -c $url/$iso
+  wget --no-verbose -c $url/$iso
 
   # From $url/$iso.sha256
   log "Validating checksum"
